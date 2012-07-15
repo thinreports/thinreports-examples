@@ -1,0 +1,7 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+gem 'thinreports'
+gem 'barby'
+gem 'rqrcode'
+gem 'chunky_png'
