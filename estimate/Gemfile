@@ -1,5 +1,5 @@
 # A sample Gemfile
 source "https://rubygems.org"
 
-gem 'thinreports'
+gem 'thinreports', '>= 0.7.5'
 
