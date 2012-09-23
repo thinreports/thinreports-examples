@@ -42,4 +42,4 @@ It will be created `eudc.pdf`.
 
 ## License, Copyright
 
-See [this file](../README.md) .
+See [this file](https://github.com/thinreports/thinreports-examples/blob/master/README.md) .
