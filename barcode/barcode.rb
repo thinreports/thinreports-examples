@@ -1,9 +1,9 @@
 # coding: utf-8
 
 require 'rubygems'
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
-require 'barby'
 require 'barby/barcode/ean_13'
 require 'barby/barcode/ean_8'
 require 'barby/barcode/qr_code'
