@@ -1,7 +1,8 @@
 # coding: utf-8
 
 require 'rubygems'
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
 ThinReports.configure do
   generator.pdf.eudc_fonts = 'eudc.ttf'
