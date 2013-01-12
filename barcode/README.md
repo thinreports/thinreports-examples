@@ -8,10 +8,8 @@
 
 ### Files
 
-* **barcode.tlf**  
-  layout file for ThinReports
-* **sample_barcode.pdf**  
-  result PDF
+* **barcode.tlf** : The layout file for ThinReports
+* **sample_barcode.pdf** : Result PDF file
 
 ### How to run
 
@@ -21,7 +19,7 @@ Bundle:
 
 Then execute `barcode.rb`:
 
-    % ruby barcode.rb
+    % bundle exec ruby barcode.rb
 
 It will be created `barcode.pdf`.
 
