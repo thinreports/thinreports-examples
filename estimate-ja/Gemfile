@@ -1,0 +1,4 @@
+source "https://rubygems.org"
+
+gem 'thinreports', '>= 0.7.5'
+
