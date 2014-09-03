@@ -1,6 +1,5 @@
 # coding: utf-8
 
-require 'rubygems'
 require 'bundler'
 Bundler.require
 
@@ -21,16 +20,16 @@ def barcode(type, data, png_opts = {})
   StringIO.new(code.to_png(png_opts))
 end
 
-ThinReports::Report.generate_file('barcode.pdf', :layout => 'barcode') do
+ThinReports::Report.generate filename: 'barcode.pdf', layout: 'barcode' do
   start_new_page
-  
+
   # JAN13
   page.item(:jan_13).src(barcode(:ean_13, '491234567890'))
-  
+
   # JAN8
   page.item(:jan_8).src(barcode(:ean_8, '4512345'))
-  
+
   # QR Code
-  page.item(:qr_code).src(barcode(:qr_code, 'http://www.thinreports.org/',
-                                  :ydim => 5, :xdim => 5))
+  page.item(:qr_code).src(barcode(
+    :qr_code, 'http://www.thinreports.org/', ydim: 5, xdim: 5))
 end
