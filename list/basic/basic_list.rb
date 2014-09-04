@@ -1,6 +1,7 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
 report = ThinReports::Report.new layout: 'basic_list.tlf'
 
@@ -18,4 +19,4 @@ end
 
 # [NOTE] In thinreports < 0.7.7:
 #   report.generate_file 'basic_list.pdf'
-report.generate filename: 'basic_list.pdf'
+report.generate filename: 'result.pdf'

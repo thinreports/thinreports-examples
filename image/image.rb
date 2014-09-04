@@ -1,7 +1,8 @@
 # coding: utf-8
 
-require 'thinreports'
 require 'open-uri'
+require 'bundler'
+bundler.require
 
 report = ThinReports::Report.new layout: 'image.tlf'
 report.start_new_page do |page|
@@ -9,4 +10,4 @@ report.start_new_page do |page|
   page.item(:remote_image).src(open('http://rubyonrails.org/images/rails.png'))
 end
 
-report.generate filename: 'image.pdf'
+report.generate filename: 'result.pdf'

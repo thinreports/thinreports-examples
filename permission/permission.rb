@@ -1,8 +1,9 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
-report = ThinReports::Report.new layout: 'pdf_security.tlf'
+report = ThinReports::Report.new layout: 'permission.tlf'
 report.start_new_page
 
 # See more details:
@@ -18,4 +19,4 @@ security_settings = {
   }
 }
 
-report.generate filename: 'pdf_security.pdf', security: security_settings
+report.generate filename: 'result.pdf', security: security_settings

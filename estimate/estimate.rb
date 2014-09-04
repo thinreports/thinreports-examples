@@ -1,6 +1,7 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
 # Prepare sample data.
 data = []
@@ -118,4 +119,4 @@ report = ThinReports::Report.create do |r|
   end
 end
 
-report.generate filename: 'estimate.pdf'
+report.generate filename: 'result.pdf'

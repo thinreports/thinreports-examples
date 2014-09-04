@@ -1,8 +1,9 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
-ThinReports::Report.generate filename: 'textblock_tool.pdf', layout: 'textblock_tool.tlf' do
+ThinReports::Report.generate filename: 'result.pdf', layout: 'text_block.tlf' do
   start_new_page
 
   page.values single_line_left: 'Left(Default)',

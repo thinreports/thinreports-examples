@@ -1,9 +1,10 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
-ThinReports::Report.generate filename: 'use_event.pdf' do
-  use_layout 'use_event'
+ThinReports::Report.generate filename: 'result.pdf' do
+  use_layout 'event'
 
   events.on :page_create do |e|
     e.page.item(:event_page_create).value('Dispatched at before page creating.')

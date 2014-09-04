@@ -1,6 +1,7 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
 report = ThinReports::Report.new layout: 'advanced_list'
 
@@ -33,4 +34,4 @@ report.start_new_page
   end
 end
 
-report.generate filename: 'advanced_list.pdf'
+report.generate filename: 'result.pdf'

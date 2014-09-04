@@ -1,10 +1,11 @@
 # coding: utf-8
 
-require 'thinreports'
+require 'bundler'
+Bundler.require
 
 report = ThinReports::Report.create do
-  use_layout 'multiple_layouts_default', default: true
-  use_layout 'multiple_layouts_cover', id: :cover
+  use_layout 'multiple_layout_default', default: true
+  use_layout 'multiple_layout_cover', id: :cover
 
   # Add :cover layout (using multiple_layouts_cover.tlf).
   start_new_page layout: :cover
@@ -17,7 +18,7 @@ report = ThinReports::Report.create do
   end
 
   # Add "multiple_layouts_back_cover.tlf" layout.
-  start_new_page layout: 'multiple_layouts_back_cover.tlf'
+  start_new_page layout: 'multiple_layout_back_cover.tlf'
 end
 
-report.generate filename: 'multiple_layouts.pdf'
+report.generate filename: 'result.pdf'
