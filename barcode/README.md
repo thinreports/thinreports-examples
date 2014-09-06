@@ -1,19 +1,8 @@
-**ThinReports Example: Barcode**
+# Barcode - Thinreports Examples
 
----
+## How to run
 
-# How to display the BarCode
-
-## Example
-
-### Files
-
-* **barcode.tlf** : The layout file for ThinReports
-* **sample_barcode.pdf** : Result PDF file
-
-### How to run
-
-Bundle:
+Bundle in this directory:
 
     % bundle install
 
@@ -21,18 +10,19 @@ Then execute `barcode.rb`:
 
     % bundle exec ruby barcode.rb
 
-It will be created `barcode.pdf`.
+`result.pdf` will be created.
 
-### Requirements
+## Requirements
 
-* Ruby 1.8.7, 1.9.2, 1.9.3
+* ruby >= 1.9
 * Runtime dependencies
-  * Bundler
-  * ThinReports 0.7.0+
+  * thinreports >= 0.7.7
   * Barby
   * rQRCode
   * ChunkyPNG
 
-## License, Copyright
+## Tips
 
-See [this file](https://github.com/thinreports/thinreports-examples/blob/master/README.md) .
+### Adjust size of the barcode
+
+See this [gist](https://gist.github.com/hidakatsuya/6362423) (Japanese).
