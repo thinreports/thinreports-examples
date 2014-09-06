@@ -1,45 +1,24 @@
-**ThinReports Example: EUDC**
+# Use External-Character - Thinreports Examples
 
----
+## How to run
 
-# How to support the External-Character (外字)
-
-## Example
-
-### Files
-
-* **eudc.tlf**  
-  layout file for ThinReports
-* **eudc.ttf**  
-  external characters file (EUDC file)
-* **sample_eudc.pdf**  
-  result PDF
-
-### How to run
-
-Bundle:
+Bundle in this directory:
 
     % bundle install
 
 Then execute `eudc.rb`:
 
-    % ruby eudc.rb
+    % bundle exec ruby eudc.rb
 
-It will be created `eudc.pdf`.
+`result.pdf` will be created.
 
-### Requirements
+## How to get EUDC.ttf
 
-* Ruby 1.8.7, 1.9.2, 1.9.3
-* Runtime dependencies
-  * Bundler
-  * ThinReports 0.7.0+
+  1. Windows の外字エディタで外字を作る
+  2. 作成された `EUDC.TTE` をコピー
+  3. 拡張子を `ttf` へ変更
 
-## How to create EUDC.ttf
+## Requirements
 
-1. Windows の外字エディタで外字を作る
-2. 作成された `EUDC.TTE` をコピー（Vista 以降は管理者権限必要）
-3. 拡張子を `ttf` へ変更
-
-## License, Copyright
-
-See [this file](https://github.com/thinreports/thinreports-examples/blob/master/README.md) .
+  * ruby >= 1.9
+  * thinreports >= 0.7.7
