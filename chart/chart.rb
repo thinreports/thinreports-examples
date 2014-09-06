@@ -1,7 +1,7 @@
 # coding: utf-8
 
-require 'thinreports'
-require 'open-uri'
+require 'bundler'
+Bundler.require
 
 def open_chart(*params)
   open('http://chart.googleapis.com/chart?' + URI.encode(params.join('&')))
