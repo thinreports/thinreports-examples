@@ -1,4 +1,4 @@
-# Estimate Ja - Thinreports Examples
+# Sample Estimate - Thinreports Examples
 
 ## How to run
 
