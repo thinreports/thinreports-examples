@@ -15,9 +15,7 @@ people = [
 ]
 
 # Sort people by :blood_type
-people.sort! do |a, b|
-  a.blood_type <=> b.blood_type
-end
+people.sort_by!(&:blood_type)
 
 def insert_header(list, blood_group)
   list.add_row blood_group: blood_group do |row|
@@ -27,7 +25,7 @@ end
 
 blood_group = nil
 
-report = ThinReports::Report.new layout: 'people.tlf'
+report = ThinReports::Report.new layout: 'group_rows.tlf'
 
 people.each do |person|
   # Insert group header when blood type has changed
@@ -42,4 +40,4 @@ people.each do |person|
   end
 end
 
-report.generate filename: 'people.pdf'
+report.generate filename: 'result.pdf'
