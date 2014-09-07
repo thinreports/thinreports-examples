@@ -9,4 +9,4 @@ Examples and Tips of the List Tool.
 
 ## Tips
 
-  * [Group Rows](group_rows/)
+  * [Group Rows](group-rows/)
