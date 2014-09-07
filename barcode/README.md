@@ -23,6 +23,6 @@ Then execute `barcode.rb`:
 
 ## Tips
 
-### Adjust size of the barcode
+### Adjust size of the barcode （バーコードのサイズを調整する）
 
 See this [gist](https://gist.github.com/hidakatsuya/6362423) (Japanese).
