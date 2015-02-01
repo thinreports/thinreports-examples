@@ -1,3 +1,3 @@
-# ThinReports Examples
+# Thinreports Examples
 
-The official examples for ThinReports.
+The official examples for Thinreports.
