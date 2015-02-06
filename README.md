@@ -16,7 +16,7 @@ Here are some sample codes on how to use the [Generator](http://www.thinreports.
 
 ### [Use Event](https://github.com/thinreports/thinreports-examples/tree/master/event)
 
-ThinReports is a utility that offers a “simple event model” for generating reports.  By using events, full reports can be generated more efficiently by centralizing and sharing common functionalities.
+Thinreports is a utility that offers a “simple event model” for generating reports.  By using events, full reports can be generated more efficiently by centralizing and sharing common functionalities.
 
 ### [Use multiple layouts](https://github.com/thinreports/thinreports-examples/tree/master/multiple-layout)
 
@@ -24,7 +24,7 @@ Methods for generating a single report with different page sizes and different l
 
 ### [List](https://github.com/thinreports/thinreports-examples/tree/master/list)
 
-ThinReports offers list layout functions, which handles page breaks automatically when content overflows the page.  Methods for generating a simple list document with a footer is outlined.
+Thinreports offers list layout functions, which handles page breaks automatically when content overflows the page.  Methods for generating a simple list document with a footer is outlined.
 
 ### [PDF Security](https://github.com/thinreports/thinreports-examples/tree/master/permission)
 
@@ -37,7 +37,7 @@ Methods for encrypting, setting password locks and setting security and restrict
 * [Rails4](https://github.com/thinreports/thinreports-rails4-example)
 * [Rails3](https://github.com/thinreports/thinreports-rails3-example)
 
-The links provide the source code to a simple task management application using Rails and ThinReports.  The [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) gem is used in these projects.
+The links provide the source code to a simple task management application using Rails and Thinreports.  The [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) gem is used in these projects.
 
 ### [Embed graph using GoogleChartAPI](https://github.com/thinreports/thinreports-examples/tree/master/chart)
 

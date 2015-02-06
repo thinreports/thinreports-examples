@@ -20,7 +20,7 @@ The official examples for Thinreports.
 
 ### [Use Event](https://github.com/thinreports/thinreports-examples/tree/master/event)
 
-ThinReportsでは、帳票の生成ユーティリティとして「簡易イベントモデル」を提供しています。イベントを使うことにより、共通の処理を一元化したり、総ページ数の描画やさまざまな使い方が可能です。
+Thinreportsでは、帳票の生成ユーティリティとして「簡易イベントモデル」を提供しています。イベントを使うことにより、共通の処理を一元化したり、総ページ数の描画やさまざまな使い方が可能です。
 
 ### [Use multiple layouts](https://github.com/thinreports/thinreports-examples/tree/master/multiple-layout)
 
@@ -28,7 +28,7 @@ ThinReportsでは、帳票の生成ユーティリティとして「簡易イベ
 
 ### [List](https://github.com/thinreports/thinreports-examples/tree/master/list)
 
-ThinReportsでは、一覧表を一つの機能として提供しており最大行数を超えた場合の自動改ページ機能もサポートしています。基本的な一覧表からページフッター/フッターを使った高度な一覧表について解説しています。
+Thinreportsでは、一覧表を一つの機能として提供しており最大行数を超えた場合の自動改ページ機能もサポートしています。基本的な一覧表からページフッター/フッターを使った高度な一覧表について解説しています。
 
 ### [PDF Security](https://github.com/thinreports/thinreports-examples/tree/master/permission)
 
@@ -41,7 +41,7 @@ ThinReportsでは、一覧表を一つの機能として提供しており最大
 * [Rails4](https://github.com/thinreports/thinreports-rails4-example)
 * [Rails3](https://github.com/thinreports/thinreports-rails3-example)
 
-RailsとThinReports を使った簡単なタスク管理アプリケーションのソースコードです。 [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) も使っています。
+RailsとThinreportsを使った簡単なタスク管理アプリケーションのソースコードです。 [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) も使っています。
 
 ### [Embed graph using GoogleChartAPI](https://github.com/thinreports/thinreports-examples/tree/master/chart)
 
