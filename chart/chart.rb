@@ -7,7 +7,7 @@ def open_chart(*params)
   open('http://chart.googleapis.com/chart?' + URI.encode(params.join('&')))
 end
 
-report = ThinReports::Report.new layout: 'chart.tlf'
+report = Thinreports::Report.new layout: 'chart.tlf'
 report.start_new_page do
   # Basic Bar Chart
   bar_chart_png = open_chart('cht=bhs', 'chs=240x140', 'chco=4d89f9,c6d9fd',

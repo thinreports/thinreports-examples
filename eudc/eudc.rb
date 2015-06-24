@@ -3,11 +3,11 @@
 require 'bundler'
 Bundler.require
 
-ThinReports.configure do
+Thinreports.configure do
   generator.pdf.eudc_fonts = 'eudc.ttf'
 end
 
-ThinReports::Report.generate filename: 'result.pdf', layout: 'eudc.tlf' do
+Thinreports::Report.generate filename: 'result.pdf', layout: 'eudc.tlf' do
   start_new_page
 
   # "□" is External Character (Gaiji)

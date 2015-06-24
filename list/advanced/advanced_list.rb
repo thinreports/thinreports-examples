@@ -3,7 +3,7 @@
 require 'bundler'
 Bundler.require
 
-report = ThinReports::Report.new layout: 'advanced_list'
+report = Thinreports::Report.new layout: 'advanced_list'
 
 report.layout.config.list :advanced_list  do
   # Define the variables used in list.

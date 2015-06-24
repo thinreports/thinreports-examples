@@ -3,7 +3,7 @@
 require 'bundler'
 Bundler.require
 
-ThinReports::Report.generate filename: 'result.pdf' do
+Thinreports::Report.generate filename: 'result.pdf' do
   use_layout 'event'
 
   events.on :page_create do |e|

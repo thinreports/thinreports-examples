@@ -68,7 +68,7 @@ end
 data << d1 << d2
 
 # Generate reports.
-report = ThinReports::Report.create do |r|
+report = Thinreports::Report.create do |r|
   # Setting the layout for 'estimate.tlf'
   r.use_layout 'estimate.tlf' do |config|
     # Setting the :details list.

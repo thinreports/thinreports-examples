@@ -25,7 +25,7 @@ end
 
 blood_group = nil
 
-report = ThinReports::Report.new layout: 'group_rows.tlf'
+report = Thinreports::Report.new layout: 'group_rows.tlf'
 
 people.each do |person|
   # Insert group header when blood type has changed

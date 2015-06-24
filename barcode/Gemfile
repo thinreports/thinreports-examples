@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'thinreports', '>= 0.7.7'
+gem 'thinreports', '>= 0.8.0'
 gem 'barby'
 gem 'rqrcode'
 gem 'chunky_png'

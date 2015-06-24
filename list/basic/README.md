@@ -14,5 +14,5 @@ And execute `basic_list.rb`:
 
 ## Requirements
 
-  * ruby >= 1.9
-  * thinreports >= 0.7.7
+  * ruby >= 1.9.3
+  * thinreports >= 0.8.0

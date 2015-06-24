@@ -3,7 +3,7 @@
 require 'bundler'
 Bundler.require
 
-report = ThinReports::Report.create do
+report = Thinreports::Report.create do
   use_layout 'multiple_layout_default', default: true
   use_layout 'multiple_layout_cover', id: :cover
 

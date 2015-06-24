@@ -3,7 +3,7 @@
 require 'bundler'
 Bundler.require
 
-report = ThinReports::Report.new layout: 'basic_list.tlf'
+report = Thinreports::Report.new layout: 'basic_list.tlf'
 
 30.times do |t|
   # Internaly #start_new_page() method is called,

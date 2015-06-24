@@ -20,7 +20,7 @@ def barcode(type, data, png_opts = {})
   StringIO.new(code.to_png(png_opts))
 end
 
-ThinReports::Report.generate filename: 'result.pdf', layout: 'barcode' do
+Thinreports::Report.generate filename: 'result.pdf', layout: 'barcode' do
   start_new_page
 
   # JAN13

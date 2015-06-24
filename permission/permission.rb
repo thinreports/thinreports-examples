@@ -3,7 +3,7 @@
 require 'bundler'
 Bundler.require
 
-report = ThinReports::Report.new layout: 'permission.tlf'
+report = Thinreports::Report.new layout: 'permission.tlf'
 report.start_new_page
 
 # See more details:
