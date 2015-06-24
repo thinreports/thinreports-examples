@@ -68,53 +68,49 @@ end
 data << d1 << d2
 
 # Generate reports.
-report = Thinreports::Report.create do |r|
-  # Setting the layout for 'estimate.tlf'
-  r.use_layout 'estimate.tlf' do |config|
-    # Setting the :details list.
-    config.list(:details) do
-      use_stores sub_total: 0, total: 0
-      # Dispatch at list-page-footer insertion.
-      events.on :page_footer_insert do |e|
-        # Set subtotal.
-        e.section.item(:sub_total).value(e.store.sub_total)
-        # Initialize subtotal to 0.
-        e.store.sub_total = 0
-      end
+report = Thinreports::Report.new layout: 'estimate.tlf'
 
-      # Dispatch at list-footer insertion.
-      events.on :footer_insert do |e|
-        # Set total.
-        e.section.item(:total).value(e.store.total)
-      end
+data.each do |header|
+  report.start_new_page
+
+  # Set header datas.
+  report.page.values(no: header[:no],
+    issued_date: header[:issued_date],
+    customer_name: header[:customer_name],
+    customer_address: header[:customer_address],
+    customer_post_code: header[:customer_post_code],
+    my_name: header[:my_name],
+    my_address: header[:my_address],
+    my_post_code: header[:my_post_code],
+    my_tel_number: header[:my_tel_number],
+    my_fax_number: header[:my_fax_number],
+    notes: header[:notes])
+
+  report.page.list do |list|
+    sub_total = 0
+    total = 0
+
+    # Dispatch at list-page-footer insertion.
+    list.on_page_footer_insert do |page_footer|
+      # Set subtotal.
+      page_footer.item(:sub_total).value(sub_total)
+      # Initialize subtotal to 0.
+      sub_total = 0
     end
-  end
 
-  data.each do |header|
-    r.start_new_page
-
-    # Set header datas.
-    r.page.values(no: header[:no],
-      issued_date: header[:issued_date],
-      customer_name: header[:customer_name],
-      customer_address: header[:customer_address],
-      customer_post_code: header[:customer_post_code],
-      my_name: header[:my_name],
-      my_address: header[:my_address],
-      my_post_code: header[:my_post_code],
-      my_tel_number: header[:my_tel_number],
-      my_fax_number: header[:my_fax_number],
-      notes: header[:notes])
+    # Dispatch at list-footer insertion.
+    list.on_footer_insert do |footer|
+      # Set total.
+      footer.item(:total).value(total)
+    end
 
     header[:details].each do |detail|
       # Add an row of list.
-      r.page.list(:details).add_row(detail)
+      list.add_row(detail)
 
       # Calculate the amount.
-      r.page.list(:details) do |list|
-        list.store.sub_total += detail[:amount]
-        list.store.total += detail[:amount]
-      end
+      sub_total += detail[:amount]
+      total += detail[:amount]
     end
   end
 end

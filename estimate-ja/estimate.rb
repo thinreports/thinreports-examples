@@ -48,52 +48,46 @@ end
 data << d1 << d2
 
 # Generate reports.
-report = Thinreports::Report.create do |r|
-  # Setting the layout for 'estimate.tlf'
-  r.use_layout 'estimate.tlf' do |config|
-    # Setting the :details list.
-    config.list(:details) do
-      use_stores :price       => 0,
-                 :total_price => 0
+report = Thinreports::Report.new layout: 'estimate.tlf'
 
-      # Dispatch at list-page-footer insertion.
-      events.on :page_footer_insert do |e|
-        # Set subtotal price.
-        e.section.item(:price).value(e.store.price)
-        # Initialize subtotal price to 0.
-        e.store.price = 0
-      end
+data.each do |header|
+  report.start_new_page
 
-      # Dispatch at list-footer insertion.
-      events.on :footer_insert do |e|
-        # Set total price.
-        e.section.item(:price).value(e.store.total_price)
-      end
+  # Set header datas.
+  report.page.values(no: header[:no],
+    created_d: header[:created_d],
+    customer: header[:customer],
+    title: header[:title],
+    price: header[:price],
+    tax: header[:tax],
+    total_price: header[:total_price],
+    note: header[:note])
+
+  report.page.list do |list|
+    price = 0
+    total_price = 0
+
+    # Dispatch at list-page-footer insertion.
+    list.on_page_footer_insert do |page_footer|
+      # Set price.
+      page_footer.item(:price).value(price)
+      # Initialize price to 0.
+      price = 0
     end
-  end
 
-  data.each do |header|
-    r.start_new_page
-
-    # Set header datas.
-    r.page.values(:no          => header[:no],
-                  :created_d   => header[:created_d],
-                  :customer    => header[:customer],
-                  :title       => header[:title],
-                  :price       => header[:price],
-                  :tax         => header[:tax],
-                  :total_price => header[:total_price],
-                  :note        => header[:note])
+    # Dispatch at list-footer insertion.
+    list.on_footer_insert do |footer|
+      # Set total_price.
+      footer.item(:price).value(total_price)
+    end
 
     header[:details].each do |detail|
       # Add an row of list.
-      r.page.list(:details).add_row(detail)
+      list.add_row(detail)
 
-      # Calculate the price.
-      r.page.list(:details) do |list|
-        list.store.price       += detail[:price]
-        list.store.total_price += detail[:price]
-      end
+      # Calculate the amount.
+      price += detail[:price]
+      total_price += detail[:price]
     end
   end
 end
