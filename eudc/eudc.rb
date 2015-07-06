@@ -3,8 +3,8 @@
 require 'bundler'
 Bundler.require
 
-Thinreports.configure do
-  generator.pdf.eudc_fonts = 'eudc.ttf'
+Thinreports.configure do |config|
+  config.fallback_fonts = 'eudc.ttf'
 end
 
 Thinreports::Report.generate filename: 'result.pdf', layout: 'eudc.tlf' do
