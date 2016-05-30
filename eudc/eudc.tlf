@@ -1,1 +1,51 @@
-{"version":"0.8.2","config":{"title":"Example EUDC","option":{},"page":{"paper-type":"A4","orientation":"landscape","margin-top":"20","margin-bottom":"20","margin-left":"20","margin-right":"20"}},"svg":"<svg width=\"841.8\" height=\"595.2\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" preserveAspectRatio=\"none\" viewBox=\"0 0 841.8 595.2\"><g class=\"canvas\"><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"eudc\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"center\",\"line-height\":87.046875,\"line-height-ratio\":1.5,\"box\":{\"x\":37,\"y\":160,\"width\":767.8,\"height\":283.8},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":37,\"y\":160,\"width\":767.8,\"height\":283.8,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"kerning\":\"auto\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"52\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-anchor\":\"middle\",\"text-decoration\":\"none\",\"id\":\"goog_2031509951\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" x-display=\"true\" x-multiple=\"true\" x-id=\"eudc\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"52\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"middle\" text-decoration=\"none\" x-width=\"767.8\" x-height=\"283.8\" x-left=\"37\" x-top=\"160\" x-valign=\"center\" x-line-height=\"87.046875\" x-line-height-ratio=\"1.5\" id=\"goog_2031509951\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"767.8\" height=\"283.8\" x=\"37\" y=\"160\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"41\" y=\"171\">eudc</text></g>LAYOUT--></g></svg>","state":{"layout-guide":[]}}
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "eudc",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 40,
+      "y": 160,
+      "width": 767.8,
+      "height": 283.8,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 52,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "middle",
+        "line-height": 78,
+        "line-height-ratio": 1.5,
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "Example EUDC",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "landscape",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

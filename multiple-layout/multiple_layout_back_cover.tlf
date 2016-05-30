@@ -1,1 +1,73 @@
-{"version":"0.7.7.2","finger-print":-1600475560,"config":{"title":"","option":{},"page":{"paper-type":"A4","orientation":"portrait","margin-top":"20","margin-bottom":"20","margin-left":"20","margin-right":"20"}},"svg":"<svg width=\"595.2\" height=\"841.8\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" preserveAspectRatio=\"none\" viewBox=\"0 0 595.2 841.8\"><g class=\"canvas\"><g class=\"s-text\" stroke-width=\"0\" fill=\"#7f7f7f\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"italic\" font-family=\"Times New Roman\" font-size=\"18\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"195.9\" x-height=\"18.9\" x-left=\"20\" x-top=\"20\" id=\"goog_2031509657\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"195.9\" height=\"18.9\" x=\"20\" y=\"20\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"32.2\">Example: Multiple Layouts</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"60\" text-anchor=\"middle\" x-valign=\"center\" text-decoration=\"none\" x-width=\"555.2\" x-height=\"92\" x-left=\"20\" x-top=\"374.9\" id=\"goog_2031509658\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"555.2\" height=\"92\" x=\"20\" y=\"374.9\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"297.6\" y=\"434.2\">Back Cover</text></g></g></svg>","state":{"layout-guide":[]}}
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 20,
+      "width": 196.3,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 18,
+        "color": "#7f7f7f",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [
+          "italic"
+        ]
+      },
+      "texts": [
+        "Example: Multiple Layouts"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 374.9,
+      "width": 555.2,
+      "height": 92,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 60,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Back Cover"
+      ]
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

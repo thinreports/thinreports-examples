@@ -1,1 +1,167 @@
-{"version":"0.7.7.2","finger-print":-1821469257,"config":{"title":"Example Barcode","option":{},"page":{"paper-type":"A4","orientation":"portrait","margin-top":"20","margin-bottom":"20","margin-left":"20","margin-right":"20"}},"svg":"<svg width=\"595.2\" height=\"841.8\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" preserveAspectRatio=\"none\" viewBox=\"0 0 595.2 841.8\"><g class=\"canvas\"><g class=\"s-text\" stroke-width=\"0\" fill=\"#7f7f7f\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"italic\" font-family=\"Times New Roman\" font-size=\"18\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"134.4\" x-height=\"18.9\" x-left=\"20\" x-top=\"20\" id=\"goog_2031509742\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"134.4\" height=\"18.9\" x=\"20\" y=\"20\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"32.2\">Example: Barcode</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" font-size=\"18\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"200\" x-height=\"18\" x-left=\"20\" x-top=\"70\" id=\"goog_2031509743\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"18\" x=\"20\" y=\"70\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"83\">JAN-13(EAN-13)</text></g><!--SHAPE{\"type\":\"s-iblock\",\"id\":\"jan_13\",\"display\":\"true\",\"desc\":null,\"box\":{\"x\":20,\"y\":100,\"width\":300,\"height\":100},\"position-x\":\"center\",\"position-y\":\"top\",\"svg\":{\"tag\":\"image\",\"attrs\":{\"x\":20,\"y\":100,\"width\":300,\"height\":100}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-iblock\" x-display=\"true\" x-id=\"jan_13\" x-width=\"300\" x-height=\"100\" x-left=\"20\" x-top=\"100\" x-position-x=\"center\" x-position-y=\"top\" id=\"goog_2031509744\"><rect class=\"s-iblock-box\" stroke=\"#7C4007\" fill=\"#f4e2c4\" stroke-width=\"0.28\" fill-opacity=\"0.8\" width=\"300\" height=\"100\" x=\"20\" y=\"100\"/><image width=\"32\" height=\"32\" class=\"s-iblock-mark\" opacity=\"0.5\" xlink:href=\"assets/icons/x-image-mark.png\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" display=\"inline\" x=\"154\" y=\"134\"/><text class=\"s-iblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#7C4007\" fill-opacity=\"1\" x=\"22\" y=\"111\">jan_13</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Helvetica\" font-size=\"18\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"200\" x-height=\"18\" x-left=\"20\" x-top=\"225\" id=\"goog_2031509745\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"18\" x=\"20\" y=\"225\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"238\">JAN-8(EAN-8)</text></g><!--SHAPE{\"type\":\"s-iblock\",\"id\":\"jan_8\",\"display\":\"true\",\"desc\":null,\"box\":{\"x\":20,\"y\":255,\"width\":300,\"height\":100},\"position-x\":\"center\",\"position-y\":\"top\",\"svg\":{\"tag\":\"image\",\"attrs\":{\"x\":20,\"y\":255,\"width\":300,\"height\":100}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-iblock\" x-display=\"true\" x-id=\"jan_8\" x-width=\"300\" x-height=\"100\" x-left=\"20\" x-top=\"255\" x-position-x=\"center\" x-position-y=\"top\" id=\"goog_2031509746\"><rect class=\"s-iblock-box\" stroke=\"#7C4007\" fill=\"#f4e2c4\" stroke-width=\"0.28\" fill-opacity=\"0.8\" width=\"300\" height=\"100\" x=\"20\" y=\"255\"/><image width=\"32\" height=\"32\" class=\"s-iblock-mark\" opacity=\"0.5\" xlink:href=\"assets/icons/x-image-mark.png\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" display=\"inline\" x=\"154\" y=\"289\"/><text class=\"s-iblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#7C4007\" fill-opacity=\"1\" x=\"22\" y=\"266\">jan_8</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Helvetica\" font-size=\"18\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"200\" x-height=\"18\" x-left=\"20\" x-top=\"380\" id=\"goog_2031509747\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"18\" x=\"20\" y=\"380\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"393\">QR Code</text></g><!--SHAPE{\"type\":\"s-iblock\",\"id\":\"qr_code\",\"display\":\"true\",\"desc\":null,\"box\":{\"x\":20,\"y\":410,\"width\":300,\"height\":300},\"position-x\":\"center\",\"position-y\":\"top\",\"svg\":{\"tag\":\"image\",\"attrs\":{\"x\":20,\"y\":410,\"width\":300,\"height\":300}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-iblock\" x-display=\"true\" x-id=\"qr_code\" x-width=\"300\" x-height=\"300\" x-left=\"20\" x-top=\"410\" x-position-x=\"center\" x-position-y=\"top\" id=\"goog_2031509748\"><rect class=\"s-iblock-box\" stroke=\"#7C4007\" fill=\"#f4e2c4\" stroke-width=\"0.28\" fill-opacity=\"0.8\" width=\"300\" height=\"300\" x=\"20\" y=\"410\"/><image width=\"32\" height=\"32\" class=\"s-iblock-mark\" opacity=\"0.5\" xlink:href=\"assets/icons/x-image-mark.png\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" display=\"inline\" x=\"154\" y=\"544\"/><text class=\"s-iblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#7C4007\" fill-opacity=\"1\" x=\"22\" y=\"421\">qr_code</text></g>LAYOUT--></g></svg>","state":{"layout-guide":[]}}
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 20,
+      "width": 134.4,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 18,
+        "color": "#7f7f7f",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [
+          "italic"
+        ]
+      },
+      "texts": [
+        "Example: Barcode"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 70,
+      "width": 200,
+      "height": 21,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "JAN-13(EAN-13)"
+      ]
+    },
+    {
+      "id": "jan_13",
+      "type": "image-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 100,
+      "width": 300,
+      "height": 100,
+      "style": {
+        "position-x": "center",
+        "position-y": "top"
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 225,
+      "width": 200,
+      "height": 21,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "JAN-8(EAN-8)"
+      ]
+    },
+    {
+      "id": "jan_8",
+      "type": "image-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 255,
+      "width": 300,
+      "height": 100,
+      "style": {
+        "position-x": "center",
+        "position-y": "top"
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 380,
+      "width": 200,
+      "height": 21,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "QR Code"
+      ]
+    },
+    {
+      "id": "qr_code",
+      "type": "image-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 410,
+      "width": 300,
+      "height": 300,
+      "style": {
+        "position-x": "center",
+        "position-y": "top"
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "Example Barcode",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}
