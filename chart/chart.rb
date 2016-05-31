@@ -1,6 +1,7 @@
 # coding: utf-8
 
 require 'bundler'
+require 'open-uri'
 Bundler.require
 
 def open_chart(*params)

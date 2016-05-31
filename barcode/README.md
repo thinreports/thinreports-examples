@@ -16,7 +16,7 @@ Then execute `barcode.rb`:
 
 * ruby >= 1.9.3
 * Runtime dependencies
-  * thinreports >= 0.8.0
+  * thinreports 0.9.0
   * Barby
   * rQRCode
   * ChunkyPNG

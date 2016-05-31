@@ -1,1 +1,967 @@
-{"version":"0.8.2","config":{"title":"","option":{},"page":{"paper-type":"A4","orientation":"portrait","margin-top":"20","margin-bottom":"20","margin-left":"20","margin-right":"20"}},"svg":"<svg width=\"595.2\" height=\"841.8\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" preserveAspectRatio=\"none\" viewBox=\"0 0 595.2 841.8\"><g class=\"canvas\"><g class=\"s-text\" stroke-width=\"0\" fill=\"#7f7f7f\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"italic\" font-family=\"Times New Roman\" font-size=\"18\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"231.2\" x-height=\"20\" x-left=\"20\" x-top=\"20\" id=\"goog_2031509659\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"231.2\" height=\"20\" x=\"20\" y=\"20\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"36\">Example: Text Block Tool</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" font-size=\"24\" font-family=\"Times New Roman\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"end\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"395\" x-valign=\"center\" id=\"goog_2031509660\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"395\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"416\">Datetime Format:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"datetime_format\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":395,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"datetime\",\"datetime\":{\"format\":\"%Y/%m/%d\"}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":233,\"y\":416,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-anchor\":\"start\",\"text-decoration\":\"none\",\"kerning\":\"auto\",\"id\":\"goog_2031509661\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"datetime\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"datetime_format\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"395\" x-format-datetime-format=\"%Y/%m/%d\" kerning=\"auto\" id=\"goog_2031509661\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"395\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"406\">datetime_format</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" font-size=\"36\" font-family=\"Times New Roman\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"555.2\" x-height=\"40\" x-left=\"20\" x-top=\"335\" id=\"goog_2031509662\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"555.2\" height=\"40\" x=\"20\" y=\"335\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"367\">Simple Format</text></g><line stroke=\"#7f7f7f\" stroke-width=\"3\" fill=\"none\" class=\"s-line\" x-display=\"true\" x-stroke-type=\"solid\" stroke-dasharray=\"none\" x-id=\"\" x1=\"20\" x2=\"575.2\" y1=\"376.1\" y2=\"376.1\" id=\"goog_2031509663\"/><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"24\" text-anchor=\"end\" x-valign=\"center\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"430\" id=\"goog_2031509664\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"430\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"451\">Number Format:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"number_format\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":430,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"number\",\"number\":{\"delimiter\":\",\",\"precision\":3}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":233,\"y\":451,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"id\":\"goog_2031509665\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"number\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"number_format\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"430\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-number-delimiter=\",\" x-format-number-precision=\"3\" kerning=\"auto\" id=\"goog_2031509665\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"430\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"441\">number_format</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"24\" text-anchor=\"end\" x-valign=\"center\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"465\" id=\"goog_2031509666\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"465\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"486\">Padding Format:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"padding_format\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":465,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"padding\",\"padding\":{\"length\":10,\"char\":\"0\",\"direction\":\"L\"}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":233,\"y\":486,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"id\":\"goog_2031509667\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"padding\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"padding_format\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"465\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-padding-char=\"0\" x-format-padding-length=\"10\" x-format-padding-direction=\"L\" kerning=\"auto\" id=\"goog_2031509667\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"465\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"476\">padding_format</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"36\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"555.2\" x-height=\"40\" x-left=\"20\" x-top=\"55\" id=\"goog_2031509668\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"555.2\" height=\"40\" x=\"20\" y=\"55\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"87\">Basic Features</text></g><line stroke=\"#7f7f7f\" stroke-width=\"3\" fill=\"none\" class=\"s-line\" x-display=\"true\" x-stroke-type=\"solid\" stroke-dasharray=\"none\" x-id=\"\" x2=\"575.2\" y1=\"96.1\" y2=\"96.1\" x1=\"20\" id=\"goog_2031509669\"/><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"24\" text-anchor=\"end\" x-valign=\"center\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"110\" id=\"goog_2031509670\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"110\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"131\">Single Line:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"single_line_left\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":110,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"datetime\",\"datetime\":{\"format\":\"%Y/%m/%d\"}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":233,\"y\":131,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"id\":\"goog_2031509671\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"datetime\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"single_line_left\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"110\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-datetime-format=\"%Y/%m/%d\" kerning=\"auto\" id=\"goog_2031509671\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"110\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"121\">single_line_left</text></g>LAYOUT--><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"single_line_center\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":145,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"datetime\",\"datetime\":{\"format\":\"%Y/%m/%d\"}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":404.1,\"y\":166,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"middle\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"id\":\"goog_2031509672\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"datetime\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"single_line_center\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"145\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"middle\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-datetime-format=\"%Y/%m/%d\" kerning=\"auto\" id=\"goog_2031509672\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"145\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"156\">single_line_center</text></g>LAYOUT--><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"single_line_right\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":180,\"width\":342.2,\"height\":26},\"format\":{\"base\":\"\",\"type\":\"datetime\",\"datetime\":{\"format\":\"%Y/%m/%d\"}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":575.2,\"y\":201,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"end\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"id\":\"goog_2031509673\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"datetime\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"single_line_right\" x-width=\"342.2\" x-height=\"26\" x-left=\"233\" x-top=\"180\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"end\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-datetime-format=\"%Y/%m/%d\" kerning=\"auto\" id=\"goog_2031509673\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"26\" x=\"233\" y=\"180\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"191\">single_line_right</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"24\" text-anchor=\"end\" x-valign=\"center\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"215\" id=\"goog_2031509674\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"215\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"236\">Multi Line:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"multi_line\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":215,\"width\":342.2,\"height\":104.1},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":233,\"y\":215,\"width\":342.2,\"height\":104.1,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"Times New Roman\",\"kerning\":\"auto\",\"text-decoration\":\"none\",\"font-style\":\"normal\",\"font-weight\":\"normal\",\"text-anchor\":\"null\",\"id\":\"goog_2031509675\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"datetime\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"true\" x-id=\"multi_line\" x-width=\"342.2\" x-height=\"104.1\" x-left=\"233\" x-top=\"215\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"Times New Roman\" x-format-datetime-format=\"%Y/%m/%d\" kerning=\"auto\" text-decoration=\"none\" font-style=\"normal\" font-weight=\"normal\" text-anchor=\"null\" id=\"goog_2031509675\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"104.1\" x=\"233\" y=\"215\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"226\">multi_line</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" x-display=\"true\" x-id=\"\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"24\" text-anchor=\"end\" x-valign=\"center\" text-decoration=\"none\" x-width=\"200\" x-height=\"26\" x-left=\"20\" x-top=\"515\" id=\"goog_2031509676\" letter-spacing=\"normal\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"200\" height=\"26\" x=\"20\" y=\"515\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"220\" y=\"536\">Basic Format:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"basic_format\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":233,\"y\":515,\"width\":342.2,\"height\":24},\"format\":{\"base\":\"\\u00a5 {value}\",\"type\":\"number\",\"number\":{\"delimiter\":\",\",\"precision\":0}},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":233,\"y\":537,\"xml:space\":\"preserve\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"24\",\"font-family\":\"IPAMincho\",\"kerning\":\"auto\",\"id\":\"goog_2031509677\",\"letter-spacing\":\"normal\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"number\" x-value=\"\" x-format-base=\"\u00a5 {value}\" x-ref-id=\"\" x-display=\"true\" x-multiple=\"false\" x-id=\"basic_format\" x-width=\"342.2\" x-height=\"24\" x-left=\"233\" x-top=\"515\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"24\" font-family=\"IPAMincho\" x-format-number-delimiter=\",\" x-format-number-precision=\"0\" kerning=\"auto\" id=\"goog_2031509677\" letter-spacing=\"normal\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" stroke-width=\"0.28\" fill-opacity=\"0.2\" width=\"342.2\" height=\"24\" x=\"233\" y=\"515\"/><text class=\"s-tblock-id\" font-size=\"11\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"237\" y=\"526\">basic_format</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927179\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"36\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"555.2\" x-height=\"40\" x-left=\"20\" x-top=\"565\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"555.2\" height=\"40\" x=\"20\" y=\"565\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"597\">Dynamic Style</text></g><line stroke=\"#7f7f7f\" stroke-width=\"3\" fill=\"none\" class=\"s-line\" x-display=\"true\" x-stroke-type=\"solid\" stroke-dasharray=\"none\" x-id=\"\" id=\"goog_655927180\" x2=\"575.2\" y1=\"606.1\" y2=\"606.1\" x1=\"20\"/><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"show_text_block\",\"display\":\"false\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"center\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":92.3,\"y\":610.5,\"width\":482.9,\"height\":25},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"truncate\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":92.3,\"y\":610.5,\"width\":482.9,\"height\":25,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927189\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"false\" x-multiple=\"true\" id=\"goog_655927189\" x-id=\"show_text_block\" x-width=\"482.9\" x-height=\"25\" x-left=\"92.3\" x-top=\"610.5\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" x-overflow=\"truncate\" x-word-wrap=\"none\" x-valign=\"center\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"482.9\" height=\"25\" x=\"92.3\" y=\"610.5\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"96.3\" y=\"621.5\">show_text_block</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927193\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" x-valign=\"center\" text-decoration=\"none\" x-width=\"212.7\" x-height=\"26\" x-left=\"20\" x-top=\"610\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"212.7\" height=\"26\" x=\"20\" y=\"610\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"629\">Visibility:</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927195\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"274.7\" x-height=\"20.5\" x-left=\"20\" x-top=\"645\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"274.7\" height=\"20.5\" x=\"20\" y=\"645\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"660\">Bold and Italic Style:</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927196\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"274.7\" x-height=\"20\" x-left=\"20\" x-top=\"710\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"274.7\" height=\"20\" x=\"20\" y=\"710\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"725\">Font Size:</text></g><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927201\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"254.4\" x-height=\"20\" x-left=\"294.7\" x-top=\"645.5\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"254.4\" height=\"20\" x=\"294.7\" y=\"645.5\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"294.7\" y=\"660.5\">Underline and Line-Through Style:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"bold_and_italic\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":20,\"y\":665.5,\"width\":274.7,\"height\":36},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":20,\"y\":665.5,\"width\":274.7,\"height\":36,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927207\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"Times New Roman\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-anchor\":\"start\",\"text-decoration\":\"none\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-multiple=\"true\" id=\"goog_655927207\" x-id=\"bold_and_italic\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"Times New Roman\" font-weight=\"normal\" font-style=\"normal\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"274.7\" x-height=\"36\" x-left=\"20\" x-top=\"665.5\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"274.7\" height=\"36\" x=\"20\" y=\"665.5\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"24\" y=\"676.5\">bold_and_italic</text></g>LAYOUT--><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"underline_and_linethrough\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":294.7,\"y\":665.5,\"width\":280.5,\"height\":36},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"truncate\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":294.7,\"y\":665.5,\"width\":280.5,\"height\":36,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927209\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-multiple=\"true\" id=\"goog_655927209\" x-id=\"underline_and_linethrough\" x-width=\"280.5\" x-height=\"36\" x-left=\"294.7\" x-top=\"665.5\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" x-overflow=\"truncate\" x-word-wrap=\"none\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"280.5\" height=\"36\" x=\"294.7\" y=\"665.5\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"298.7\" y=\"676.5\">underline_and_linethrough</text></g>LAYOUT--><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"font_size_12\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":20,\"y\":730,\"width\":274.7,\"height\":36},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"truncate\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":20,\"y\":730,\"width\":274.7,\"height\":36,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927211\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-multiple=\"true\" id=\"goog_655927211\" x-id=\"font_size_12\" x-width=\"274.7\" x-height=\"36\" x-left=\"20\" x-top=\"730\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" x-overflow=\"truncate\" x-word-wrap=\"none\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"274.7\" height=\"36\" x=\"20\" y=\"730\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"24\" y=\"741\">font_size_12</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927212\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"274.7\" x-height=\"20\" x-left=\"294.7\" x-top=\"710\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"274.7\" height=\"20\" x=\"294.7\" y=\"710\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"294.7\" y=\"725\">Text Align and Vertical Align:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"text_align_and_vertical_align\",\"display\":\"true\",\"desc\":null,\"multiple\":\"true\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":294.7,\"y\":730,\"width\":274.7,\"height\":36},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"truncate\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"textArea\",\"attrs\":{\"x\":294.7,\"y\":730,\"width\":274.7,\"height\":36,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927213\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-multiple=\"true\" id=\"goog_655927213\" x-id=\"text_align_and_vertical_align\" x-width=\"274.7\" x-height=\"36\" x-left=\"294.7\" x-top=\"730\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" x-overflow=\"truncate\" x-word-wrap=\"none\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"274.7\" height=\"36\" x=\"294.7\" y=\"730\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"298.7\" y=\"741\">text_align_and_vertical_align</text></g>LAYOUT--><g class=\"s-text\" stroke-width=\"0\" fill=\"#000000\" fill-opacity=\"1\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-id=\"\" id=\"goog_655927214\" stroke=\"none\" font-weight=\"normal\" font-style=\"normal\" font-family=\"Times New Roman\" font-size=\"16\" text-anchor=\"start\" text-decoration=\"none\" x-width=\"274.7\" x-height=\"20\" x-left=\"20\" x-top=\"775\"><rect class=\"s-text-box\" stroke=\"none\" fill=\"#000000\" fill-opacity=\"0.001\" width=\"274.7\" height=\"20\" x=\"20\" y=\"775\"/><text class=\"s-text-l0\" xml:space=\"preserve\" stroke=\"none\" fill=\"inherit\" fill-opacity=\"1\" text-decoration=\"none\" x=\"20\" y=\"790\">Font Color:</text></g><!--SHAPE{\"type\":\"s-tblock\",\"id\":\"font_color_black\",\"display\":\"true\",\"desc\":null,\"multiple\":\"false\",\"valign\":\"\",\"line-height\":\"\",\"line-height-ratio\":\"\",\"box\":{\"x\":20,\"y\":795,\"width\":274.7,\"height\":13},\"format\":{\"base\":\"\",\"type\":\"\"},\"value\":\"\",\"ref-id\":\"\",\"overflow\":\"truncate\",\"word-wrap\":\"none\",\"svg\":{\"tag\":\"text\",\"attrs\":{\"x\":20,\"y\":806,\"xml:space\":\"preserve\",\"kerning\":\"auto\",\"letter-spacing\":\"normal\",\"id\":\"goog_655927215\",\"fill\":\"#000000\",\"fill-opacity\":\"1\",\"font-size\":\"12\",\"font-family\":\"IPAMincho\",\"font-weight\":\"normal\",\"font-style\":\"normal\",\"text-decoration\":\"none\",\"text-anchor\":\"start\"}}}SHAPE--><!--LAYOUT<g xmlns=\"http://www.w3.org/2000/svg\" class=\"s-tblock\" x-format-type=\"\" x-value=\"\" x-format-base=\"\" x-ref-id=\"\" kerning=\"auto\" letter-spacing=\"normal\" x-display=\"true\" x-multiple=\"false\" id=\"goog_655927215\" x-id=\"font_color_black\" x-width=\"274.7\" x-height=\"13\" x-left=\"20\" x-top=\"795\" fill=\"#000000\" fill-opacity=\"1\" font-size=\"12\" font-family=\"IPAMincho\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" x-overflow=\"truncate\" x-word-wrap=\"none\"><rect class=\"s-tblock-box\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"0.2\" width=\"274.7\" height=\"13\" x=\"20\" y=\"795\"/><text class=\"s-tblock-id\" font-size=\"10.5\" font-family=\"Helvetica\" font-weight=\"normal\" font-style=\"normal\" text-decoration=\"none\" text-anchor=\"start\" kerning=\"auto\" stroke=\"none\" fill=\"#0096fd\" fill-opacity=\"1\" x=\"24\" y=\"806\">font_color_black</text></g>LAYOUT--></g></svg>","state":{"layout-guide":[{"type":"x","position":294.7},{"type":"y","position":688.2}]}}
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 20,
+      "width": 231.2,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 18,
+        "color": "#7f7f7f",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [
+          "italic"
+        ]
+      },
+      "texts": [
+        "Example: Text Block Tool"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 395,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Datetime Format:"
+      ]
+    },
+    {
+      "id": "datetime_format",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 395,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "datetime",
+        "datetime": {
+          "format": "%Y/%m/%d"
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 335,
+      "width": 555.2,
+      "height": 40,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 36,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Simple Format"
+      ]
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#7f7f7f",
+        "border-width": 3,
+        "border-style": "solid"
+      },
+      "x1": 20,
+      "y1": 376.1,
+      "x2": 575.2,
+      "y2": 376.1
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 430,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Number Format:"
+      ]
+    },
+    {
+      "id": "number_format",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 430,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "number",
+        "number": {
+          "delimiter": ",",
+          "precision": 3
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 465,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Padding Format:"
+      ]
+    },
+    {
+      "id": "padding_format",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 465,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "padding",
+        "padding": {
+          "length": 10,
+          "char": "0",
+          "direction": "L"
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 55,
+      "width": 555.2,
+      "height": 40,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 36,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Basic Features"
+      ]
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#7f7f7f",
+        "border-width": 3,
+        "border-style": "solid"
+      },
+      "x1": 20,
+      "y1": 96.1,
+      "x2": 575.2,
+      "y2": 96.1
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 110,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Single Line:"
+      ]
+    },
+    {
+      "id": "single_line_left",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 110,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "datetime",
+        "datetime": {
+          "format": "%Y/%m/%d"
+        }
+      }
+    },
+    {
+      "id": "single_line_center",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 145,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "datetime",
+        "datetime": {
+          "format": "%Y/%m/%d"
+        }
+      }
+    },
+    {
+      "id": "single_line_right",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 180,
+      "width": 342.2,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": "datetime",
+        "datetime": {
+          "format": "%Y/%m/%d"
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 215,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Multi Line:"
+      ]
+    },
+    {
+      "id": "multi_line",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 215,
+      "width": 342.2,
+      "height": 104.1,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": "datetime",
+        "datetime": {
+          "format": "%Y/%m/%d"
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 515,
+      "width": 200,
+      "height": 26.2,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Basic Format:"
+      ]
+    },
+    {
+      "id": "basic_format",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 233,
+      "y": 515,
+      "width": 342.2,
+      "height": 24,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "¥ {value}",
+        "type": "number",
+        "number": {
+          "delimiter": ",",
+          "precision": 0
+        }
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 565,
+      "width": 555.2,
+      "height": 40,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 36,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Dynamic Style"
+      ]
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#7f7f7f",
+        "border-width": 3,
+        "border-style": "solid"
+      },
+      "x1": 20,
+      "y1": 606.1,
+      "x2": 575.2,
+      "y2": 606.1
+    },
+    {
+      "id": "show_text_block",
+      "type": "text-block",
+      "display": false,
+      "description": "",
+      "x": 92.3,
+      "y": 610.5,
+      "width": 482.9,
+      "height": 25,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 610,
+      "width": 212.7,
+      "height": 26,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Visibility:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 645,
+      "width": 274.7,
+      "height": 20.5,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Bold and Italic Style:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 710,
+      "width": 274.7,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Font Size:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 294.7,
+      "y": 645.5,
+      "width": 254.4,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Underline and Line-Through Style:"
+      ]
+    },
+    {
+      "id": "bold_and_italic",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 665.5,
+      "width": 274.7,
+      "height": 36,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "underline_and_linethrough",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 294.7,
+      "y": 665.5,
+      "width": 280.5,
+      "height": 36,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "font_size_12",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 730,
+      "width": 274.7,
+      "height": 36,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 294.7,
+      "y": 710,
+      "width": 274.7,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Text Align and Vertical Align:"
+      ]
+    },
+    {
+      "id": "text_align_and_vertical_align",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 294.7,
+      "y": 730,
+      "width": 274.7,
+      "height": 36,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 775,
+      "width": 274.7,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 16,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Font Color:"
+      ]
+    },
+    {
+      "id": "font_color_black",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 795,
+      "width": 274.7,
+      "height": 13,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 12,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": [
+      {
+        "type": "x",
+        "position": 294.7
+      },
+      {
+        "type": "y",
+        "position": 688.2
+      }
+    ]
+  },
+  "title": "",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}
