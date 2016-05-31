@@ -62,7 +62,7 @@
       "description": "",
       "x": 115,
       "y": 305,
-      "width": 271.8,
+      "width": 460.2,
       "height": 18,
       "style": {
         "font-family": [
@@ -78,7 +78,7 @@
         "font-style": []
       },
       "texts": [
-        "http://rubyonrails.org/images/rails.png"
+        "http://www.thinreports.org/assets/logos/thinreports-logo-v.png"
       ]
     },
     {
