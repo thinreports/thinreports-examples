@@ -5,7 +5,7 @@ require 'open-uri'
 Bundler.require
 
 def open_chart(*params)
-  open('http://chart.googleapis.com/chart?' + URI.encode(params.join('&')))
+  URI.open('http://chart.googleapis.com/chart?' + URI.encode(params.join('&')))
 end
 
 report = Thinreports::Report.new layout: 'chart.tlf'

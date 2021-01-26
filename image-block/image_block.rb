@@ -11,7 +11,7 @@ require 'stringio'
 report = Thinreports::Report.new layout: 'image_block.tlf'
 report.start_new_page do |page|
   page.item(:local_image).src('file/image.png')
-  page.item(:remote_image).value(open('http://www.thinreports.org/assets/logos/thinreports-logo-v.png'))
+  page.item(:remote_image).value(URI.open('http://www.thinreports.org/assets/logos/thinreports-logo-v.png'))
 
   red_dot = 'iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4' +
             '//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=='
