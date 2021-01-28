@@ -36,10 +36,7 @@ Thinreportsでは、一覧表を一つの機能として提供しており最大
 
 ## Usage Examples
 
-### Rails Examples
-
-* [Rails4](https://github.com/thinreports/thinreports-rails4-example)
-* [Rails3](https://github.com/thinreports/thinreports-rails3-example)
+### [Rails Example](https://github.com/thinreports/thinreports-rails-example)
 
 RailsとThinreportsを使った簡単なタスク管理アプリケーションのソースコードです。 [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) も使っています。
 

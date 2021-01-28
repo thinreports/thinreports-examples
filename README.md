@@ -32,10 +32,7 @@ Methods for encrypting, setting password locks and setting security and restrict
 
 ## Usage Examples
 
-### Rails Examples
-
-* [Rails4](https://github.com/thinreports/thinreports-rails4-example)
-* [Rails3](https://github.com/thinreports/thinreports-rails3-example)
+### [Rails Example](https://github.com/thinreports/thinreports-rails-example)
 
 The links provide the source code to a simple task management application using Rails and Thinreports.  The [thinreports-rails](https://github.com/takeshinoda/thinreports-rails) gem is used in these projects.
 
